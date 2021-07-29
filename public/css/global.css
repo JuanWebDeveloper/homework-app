@@ -1,0 +1,95 @@
+body {
+    background: #00001a;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.logo {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.center-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.btn {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+textarea {
+    min-height: 150px !important;
+    max-height: 200px;
+}
+
+.center-content ul {
+    list-style: none;
+    text-align: left;
+}
+
+.center-content ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+ul li a:hover {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+.homework-content h2 {
+    padding-bottom: 30px;
+}
+
+.homework-content h2 span {
+    text-shadow: none;
+}
+
+.homework-content p {
+    text-align: left;
+}
+
+.homework-content p strong {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.buttons-container {
+    display: flex;
+    position: relative;
+    width: 30%;
+    margin-top: 50px;
+    left: 35%;
+    justify-content: space-between;
+}
+
+.buttons-container a,
+.buttons-container a:hover {
+    color: #fff;
+    text-shadow: none;
+}
