@@ -9,7 +9,7 @@ use App\Models\Homework;
 class HomeworkController extends Controller
 {
     public function index() {
-        $homeworks = Homework::paginate(2);
+        $homeworks = Homework::paginate(5);
         return view('homework.index', compact('homeworks'));
     }
 
