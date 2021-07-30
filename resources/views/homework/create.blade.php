@@ -17,6 +17,8 @@
                         </div>
                     @enderror
 
+                    <input type="hidden" name="slug">
+
                     <input type="text" class="form-control mb-2" name="category" placeholder="Nombre de la tarea" value="{{old('category')}}">
                     @error('category')
                         <div class="alert alert-danger py-2" role="alert">

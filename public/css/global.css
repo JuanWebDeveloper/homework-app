@@ -11,6 +11,12 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
 p {
     font-size: 20px;
     color: #fff;

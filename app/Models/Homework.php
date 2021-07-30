@@ -10,4 +10,9 @@ class Homework extends Model
     use HasFactory;
     protected $table = 'homeworks';
     protected $guarded = [];
+    
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }
