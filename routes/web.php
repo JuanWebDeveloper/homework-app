@@ -20,3 +20,5 @@ use App\Http\Controllers\HomePageController;
 Route::get('/', HomePageController::class)->name('homework.home');
 
 Route::resource('/tareas', HomeworkController::class)->parameters(['tareas' => 'homework'])->names('homework');
+
+Route::view('/nosotros', 'about')->name("homework.about");

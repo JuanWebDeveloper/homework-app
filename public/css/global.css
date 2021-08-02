@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
 body {
+    font-family: "Poppins", sans-serif;
     background: #00001a;
+    background: -webkit-linear-gradient(to left, #0c0c22, #00001a);
+    background: linear-gradient(to left, #0c0c22, #00001a);
 }
 
 h2 {
@@ -29,11 +35,11 @@ p {
 
 .center-content {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .btn {
@@ -42,8 +48,8 @@ p {
 }
 
 textarea {
-    min-height: 150px !important;
-    max-height: 200px;
+    min-height: 100px !important;
+    max-height: 150px;
 }
 
 .center-content ul {
@@ -62,6 +68,7 @@ ul li a {
     transition: all ease 0.3s;
 }
 
+ul li a.active,
 ul li a:hover {
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
         0 0 10px rgba(255, 255, 255, 0.5);
@@ -87,7 +94,7 @@ ul li a:hover {
 
 .buttons-container {
     display: flex;
-    position: relative;
+    position: absolute;
     width: 30%;
     margin-top: 50px;
     left: 35%;

@@ -12,7 +12,7 @@
 
                     <input type="text" class="form-control mb-2" name="name" placeholder="Nombre de la tarea" value="{{old('name')}}">
                     @error('name')
-                        <div class="alert alert-danger py-2" role="alert">
+                        <div class="alert alert-danger py-1" role="alert">
                             {{$message}}
                         </div>
                     @enderror
@@ -21,14 +21,14 @@
 
                     <input type="text" class="form-control mb-2" name="category" placeholder="Nombre de la tarea" value="{{old('category')}}">
                     @error('category')
-                        <div class="alert alert-danger py-2" role="alert">
+                        <div class="alert alert-danger py-1" role="alert">
                             {{$message}}
                         </div>
                     @enderror
 
                     <textarea name="description" class="form-control mb-3" placeholder="Descripción de la tarea">{{old('description')}}</textarea>
                     @error('description')
-                        <div class="alert alert-danger py-2" role="alert">
+                        <div class="alert alert-danger py-1" role="alert">
                             {{$message}}
                         </div>
                     @enderror
