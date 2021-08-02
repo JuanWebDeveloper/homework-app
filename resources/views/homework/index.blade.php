@@ -3,7 +3,7 @@
 @section('title', 'HomeworkAPP - Mis Tareas')
 
 @section('content')
-    <div class="container-fluid create">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-9 col-sm-12 center-content">
                 @if (count($homeworks) >= 1)

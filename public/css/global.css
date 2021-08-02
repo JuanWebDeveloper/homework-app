@@ -28,6 +28,10 @@ p {
     color: #fff;
 }
 
+.navigation {
+    z-index: 100;
+}
+
 .logo {
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
         0 0 10px rgba(255, 255, 255, 0.5);
@@ -105,4 +109,51 @@ ul li a:hover {
 .buttons-container a:hover {
     color: #fff;
     text-shadow: none;
+}
+
+/*<|-Styles For Responsive Design-|>*/
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .create form {
+        width: 90vw !important;
+    }
+
+    textarea {
+        min-height: 30px !important;
+        max-height: 80px;
+    }
+
+    .buttons-container {
+        display: block;
+        width: 60%;
+        left: 20%;
+        padding-bottom: 30px;
+    }
+
+    .buttons-container a,
+    .buttons-container a:hover {
+        position: relative;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .buttons-container form button {
+        position: relative;
+        width: 100%;
+    }
+
+    .navigation ul li a {
+        font-size: 17px !important;
+    }
 }
