@@ -18,6 +18,9 @@
                 <li class="nav-item px-5">
                     <a class="nav-link {{request()->routeIs('homework.create') ? "active" : ""}}"  href="{{route('homework.create')}}">Crear Tarea</a>
                 </li>
+                <li class="nav-item px-5">
+                    <a class="nav-link {{request()->routeIs('contact.index') ? "active" : ""}}"  href="{{route('contact.index')}}">Contactanos</a>
+                </li>
             </ul>
         </div>
     </div>

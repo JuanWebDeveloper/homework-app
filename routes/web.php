@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 // Controllers 
@@ -22,3 +23,7 @@ Route::get('/', HomePageController::class)->name('homework.home');
 Route::resource('/tareas', HomeworkController::class)->parameters(['tareas' => 'homework'])->names('homework');
 
 Route::view('/nosotros', 'about')->name("homework.about");
+
+Route::get('/contactanos', [ContactController::class, "index"])->name("contact.index");
+
+Route::post('/contactanos', [ContactController::class, "store"])->name("contact.store");
